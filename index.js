@@ -1,3 +1,4 @@
 global.getmodule = function( modulePath ) {
-  return require.main.require( './' + modulePath );
+  var path = require( 'path' );
+  return require( path.resolve( modulePath ) );
 }

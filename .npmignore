@@ -4,3 +4,4 @@ gulpfile.js
 npm_debug.log
 LICENSE
 tests/
+coverage/
