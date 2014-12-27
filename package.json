@@ -1,0 +1,25 @@
+{
+  "name": "include",
+  "version": "0.0.1",
+  "description": "Include local modules relative to your root path",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fdaciuk/include.git"
+  },
+  "keywords": [
+    "include",
+    "require",
+    "relative",
+    "path"
+  ],
+  "author": "Fernando Daciuk <f.daciuk+npmjs@gmail.com> (http://da2k.com.br/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fdaciuk/include/issues"
+  },
+  "homepage": "https://github.com/fdaciuk/include"
+}
