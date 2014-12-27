@@ -2,6 +2,10 @@
 
 > Include local NodeJS modules relative to your root path
 
+
+
+[![NPM](https://nodei.co/npm/getmodule.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/getmodule/)
+
 ## Installation
 
 ```js
