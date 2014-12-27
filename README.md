@@ -2,6 +2,12 @@
 
 > Include local NodeJS modules relative to your root path
 
+## Installation
+
+```js
+npm i --save include
+```
+
 ## Usage
 
 Add on your `app.js` (or on main file to your app):
