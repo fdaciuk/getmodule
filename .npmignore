@@ -1,0 +1,6 @@
+.editorconfig
+.travis.yml
+gulpfile.js
+npm_debug.log
+LICENSE
+tests/
