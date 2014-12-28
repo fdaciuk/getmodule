@@ -5,6 +5,7 @@
 [![NPM version][npm-version-image]][npm-version-url]
 [![Build Status][travis-image]][travis-url]
 [![Coverage Status][coveralls-image]][coveralls-url]
+[![Code Climate][codeclimate-image]][codeclimate-url]
 
 [![NPM][npm-image]][npm-url]
 
@@ -44,3 +45,5 @@ Enjoy ;)
 [coveralls-url]: https://coveralls.io/r/fdaciuk/getmodule?branch=master
 [npm-image]: https://nodei.co/npm/getmodule.png?downloads=true&downloadRank=true&stars=true
 [npm-url]: https://nodei.co/npm/getmodule/
+[codeclimate-image]: https://codeclimate.com/github/fdaciuk/getmodule/badges/gpa.svg?style=flat
+[codeclimate-url]: https://codeclimate.com/github/fdaciuk/getmodule
