@@ -2,6 +2,7 @@
 
 > Include local NodeJS modules relative to your root path
 
+[![NPM version][npm-version-image]][npm-version-url]
 [![Build Status][travis-image]][travis-url]
 [![Coverage Status][coveralls-image]][coveralls-url]
 
@@ -35,6 +36,8 @@ Enjoy ;)
 
 [MIT License](https://github.com/fdaciuk/getmodule/blob/master/LICENSE)
 
+[npm-version-image]: https://badge.fury.io/js/getmodule.svg
+[npm-version-url]: https://npmjs.org/package/getmodule
 [travis-image]: https://travis-ci.org/fdaciuk/getmodule.svg
 [travis-url]: https://travis-ci.org/fdaciuk/getmodule
 [coveralls-image]: https://img.shields.io/coveralls/fdaciuk/getmodule.svg
