@@ -36,11 +36,11 @@ Enjoy ;)
 
 [MIT License](https://github.com/fdaciuk/getmodule/blob/master/LICENSE)
 
-[npm-version-image]: https://badge.fury.io/js/getmodule.svg
+[npm-version-image]: https://badge.fury.io/js/getmodule.svg?style=flat
 [npm-version-url]: https://npmjs.org/package/getmodule
 [travis-image]: https://travis-ci.org/fdaciuk/getmodule.svg
 [travis-url]: https://travis-ci.org/fdaciuk/getmodule
-[coveralls-image]: https://img.shields.io/coveralls/fdaciuk/getmodule.svg
+[coveralls-image]: https://img.shields.io/coveralls/fdaciuk/getmodule.svg?style=flat
 [coveralls-url]: https://coveralls.io/r/fdaciuk/getmodule?branch=master
 [npm-image]: https://nodei.co/npm/getmodule.png?downloads=true&downloadRank=true&stars=true
 [npm-url]: https://nodei.co/npm/getmodule/
