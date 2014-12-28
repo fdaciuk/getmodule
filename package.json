@@ -4,7 +4,8 @@
   "description": "Include local modules relative to your root path",
   "main": "index.js",
   "scripts": {
-    "test": "gulp mocha"
+    "test": "gulp mocha",
+    "coverage": " istanbul cover _mocha tests/**/*.js -- --timeout 25600"
   },
   "repository": {
     "type": "git",
