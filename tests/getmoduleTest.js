@@ -1,7 +1,8 @@
 'use strict';
 
-require( 'should' );
 require( '../index' );
+require( 'should' );
+
 var sumService = require( './js/services/sumService' );
 
 describe( 'GETMODULE', function() {

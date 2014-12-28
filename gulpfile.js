@@ -12,7 +12,7 @@ gulp.task( 'mocha', function() {
 });
 
 gulp.task( 'test', function( cb ) {
-  gulp.src([ './index.js' ])
+  gulp.src( './index.js' )
     .pipe( istanbul() )
     .on( 'finish', function() {
       gulp.src([ './tests/**/*.js' ])

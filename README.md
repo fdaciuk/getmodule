@@ -2,10 +2,10 @@
 
 > Include local NodeJS modules relative to your root path
 
-[![Build Status](https://travis-ci.org/fdaciuk/getmodule.svg)](https://travis-ci.org/fdaciuk/getmodule)
-[![Coverage Status](https://img.shields.io/coveralls/fdaciuk/getmodule.svg)](https://coveralls.io/r/fdaciuk/getmodule?branch=master)
+[![Build Status][travis-image]][travis-url]
+[![Coverage Status][coveralls-image]][coveralls-url]
 
-[![NPM](https://nodei.co/npm/getmodule.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/getmodule/)
+[![NPM][npm-image]][npm-url]
 
 ## Installation
 
@@ -30,3 +30,14 @@ var mymodule = getmodule( 'app/modules/mymodule' );
 ```
 
 Enjoy ;)
+
+## License
+
+[MIT License](https://github.com/fdaciuk/getmodule/blob/master/LICENSE)
+
+[travis-image]: https://travis-ci.org/fdaciuk/getmodule.svg
+[travis-url]: https://travis-ci.org/fdaciuk/getmodule
+[coveralls-image]: https://img.shields.io/coveralls/fdaciuk/getmodule.svg
+[coveralls-url]: https://coveralls.io/r/fdaciuk/getmodule?branch=master 
+[npm-image]: https://nodei.co/npm/getmodule.png?downloads=true&downloadRank=true&stars=true
+[npm-url]: https://nodei.co/npm/getmodule/
