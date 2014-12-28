@@ -41,6 +41,6 @@ Enjoy ;)
 [travis-image]: https://travis-ci.org/fdaciuk/getmodule.svg
 [travis-url]: https://travis-ci.org/fdaciuk/getmodule
 [coveralls-image]: https://img.shields.io/coveralls/fdaciuk/getmodule.svg
-[coveralls-url]: https://coveralls.io/r/fdaciuk/getmodule?branch=dev
+[coveralls-url]: https://coveralls.io/repos/fdaciuk/getmodule/badge.png?branch=dev
 [npm-image]: https://nodei.co/npm/getmodule.png?downloads=true&downloadRank=true&stars=true
 [npm-url]: https://nodei.co/npm/getmodule/
