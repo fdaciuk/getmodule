@@ -1,3 +1,4 @@
+.coveralls.yml
 .editorconfig
 .travis.yml
 gulpfile.js

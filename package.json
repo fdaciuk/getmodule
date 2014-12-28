@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "gulp mocha",
-    "coverage": " istanbul cover _mocha tests/**/*.js -- --timeout 25600"
+    "coverage": "istanbul cover _mocha tests/**/*.js -- --timeout 25600",
+    "coveralls": "cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js"
   },
   "repository": {
     "type": "git",
