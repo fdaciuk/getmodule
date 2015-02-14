@@ -17,15 +17,15 @@ npm i --save getmodule
 
 ## Usage
 
-Add on your `app.js` (or on main file to your app):
+Add `getmodule` at the top of your `app.js` (or at the main file to your app):
 
 ```js
 require( 'getmodule' );
 ```
 
-Now, you can call any module with base on root of your application.
+Now, you can call any module with base on root path of your application.
 
-If your module is `app/modules/mymodule.js`, but your call is on the file `app/controllers/controller.js`, doesn't matter! Just type this:
+If your module is `app/modules/mymodule.js`, but you're calling it on the file `app/controllers/controller.js`, doesn't worry! Just type this:
 
 ```js
 var mymodule = getmodule( 'app/modules/mymodule' );
