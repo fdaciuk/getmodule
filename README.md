@@ -35,7 +35,7 @@ Enjoy ;)
 
 ## License
 
-[MIT License](https://github.com/fdaciuk/getmodule/blob/master/LICENSE)
+[MIT License](https://github.com/fdaciuk/licenses/blob/master/MIT-LICENSE.md)
 
 [npm-version-image]: https://badge.fury.io/js/getmodule.svg?style=flat
 [npm-version-url]: https://npmjs.org/package/getmodule
