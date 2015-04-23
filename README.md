@@ -25,7 +25,8 @@ require( 'getmodule' );
 
 Now, you can call any module with base on root path of your application.
 
-If your module is `app/modules/mymodule.js`, but you're calling it on the file `app/controllers/controller.js`, doesn't worry! Just type this:
+If your module is on `app/modules/mymodule.js`, but you're calling it on the 
+file `app/controllers/controller.js`, don't worry! Just type this:
 
 ```js
 var mymodule = getmodule( 'app/modules/mymodule' );
