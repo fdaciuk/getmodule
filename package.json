@@ -1,6 +1,6 @@
 {
   "name": "getmodule",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Include local modules relative to your root path",
   "main": "index.js",
   "scripts": {
