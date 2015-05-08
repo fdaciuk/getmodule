@@ -34,6 +34,10 @@ var mymodule = getmodule( 'app/modules/mymodule' );
 
 Enjoy ;)
 
+## Contributing
+
+Check [CONTRIBUTING.md](CONTRIBUTING.md)
+
 ## License
 
 [MIT License](https://github.com/fdaciuk/licenses/blob/master/MIT-LICENSE.md)
