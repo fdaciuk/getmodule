@@ -17,38 +17,44 @@ npm i --save getmodule
 
 ## Usage
 
-Add `getmodule` at the top of your `app.js` (or at the main file to your app):
+Add `getmodule` on top of your `app.js` (or _main file_ of your app):
 
 ```js
 require( 'getmodule' );
 ```
 
-Now, you can call any module with base on root path of your application.
+Now, you can call any module based on _root path_ of your application.
 
 If your module is on `app/modules/mymodule.js`, but you're calling it on the 
-file `app/controllers/controller.js`, don't worry! Just type this:
+file `app/controllers/controller.js`; in tradicional mode, you needed to do:
+
+```js
+var mymodule = require( '../modules/mymodule' );
+```
+
+But with `getmodule`, you just need type this:
 
 ```js
 var mymodule = getmodule( 'app/modules/mymodule' );
 ```
 
-Enjoy ;)
-
 ## Contributing
 
-Check [CONTRIBUTING.md](CONTRIBUTING.md)
+Check [CONTRIBUTING.md][contributing-url]
 
 ## License
 
-[MIT License](https://github.com/fdaciuk/licenses/blob/master/MIT-LICENSE.md)
+[MIT License][license-url] © Fernando Daciuk
 
-[npm-version-image]: https://badge.fury.io/js/getmodule.svg?style=flat
+[npm-version-image]: https://img.shields.io/npm/v/getmodule.svg?style=flat-square
 [npm-version-url]: https://npmjs.org/package/getmodule
-[travis-image]: https://travis-ci.org/fdaciuk/getmodule.svg
+[travis-image]: https://img.shields.io/travis/fdaciuk/getmodule.svg?style=flat-square
 [travis-url]: https://travis-ci.org/fdaciuk/getmodule
-[coveralls-image]: https://img.shields.io/coveralls/fdaciuk/getmodule.svg?style=flat
+[coveralls-image]: https://img.shields.io/coveralls/fdaciuk/getmodule/master.svg?style=flat-square
 [coveralls-url]: https://coveralls.io/r/fdaciuk/getmodule?branch=master
 [npm-image]: https://nodei.co/npm/getmodule.png?downloads=true&downloadRank=true&stars=true
 [npm-url]: https://nodei.co/npm/getmodule/
-[codeclimate-image]: https://codeclimate.com/github/fdaciuk/getmodule/badges/gpa.svg?style=flat
+[codeclimate-image]: https://img.shields.io/codeclimate/github/fdaciuk/getmodule.svg?style=flat-square
 [codeclimate-url]: https://codeclimate.com/github/fdaciuk/getmodule
+[contributing-url]: CONTRIBUTING.md
+[license-url]: https://github.com/fdaciuk/licenses/blob/master/MIT-LICENSE.md
