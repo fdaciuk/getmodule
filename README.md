@@ -2,6 +2,10 @@
 
 > Include local NodeJS modules relative to your root path
 
+<p align="center">
+  <img src="getmodule-logo.png" alt="Get Module" />
+</p>
+
 [![NPM version][npm-version-image]][npm-version-url]
 [![Build Status][travis-image]][travis-url]
 [![Coverage Status][coveralls-image]][coveralls-url]
