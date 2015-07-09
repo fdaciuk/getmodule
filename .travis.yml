@@ -2,9 +2,6 @@ language: node_js
 node_js:
   - "0.12"
 
-before_install:
-  - npm i --save coveralls
-
 addons:
   coveralls:
     repo_token: vh3E2588coPCALgypdRuqRxJgK6Kfa1Er
