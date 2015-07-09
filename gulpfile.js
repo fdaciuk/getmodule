@@ -12,8 +12,9 @@ gulp.task( 'mocha', function() {
 });
 
 gulp.task( 'test', function( cb ) {
-  gulp.src( [ './tests/**/*.js', './index.js' ])
+  gulp.src([ 'index.js' ])
     .pipe( istanbul() )
+    .pipe( istanbul.hookRequire() )
     .on( 'finish', function() {
       gulp.src([ './tests/**/*.js', './index.js' ])
       .pipe( mocha() )
@@ -22,6 +23,6 @@ gulp.task( 'test', function( cb ) {
     });
 });
 
-gulp.task( 'default', function() {
-  gulp.watch( './tests/**/*.js', [ 'test' ]);
+gulp.task( 'default', [ 'test' ], function() {
+  gulp.watch([ 'tests/**/*.js', 'index.js' ], [ 'test' ]);
 });
