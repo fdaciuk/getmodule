@@ -8,6 +8,8 @@ before_install:
 addons:
   coveralls:
     repo_token: vh3E2588coPCALgypdRuqRxJgK6Kfa1Er
+  codeclimate:
+    repo_token: 27391bfcd9a1b7f39466f31e90efa100ef87b622b3a239675a237233595b2660
 
 after_script:
   - cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js
